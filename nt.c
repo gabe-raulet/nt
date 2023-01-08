@@ -1,3 +1,9 @@
+/** @file nt.c
+ *  @brief Implementations for 2-bit encoding and decoding of nucleotide sequences.
+ *
+ *  @author Gabriel Raulet
+ */
+
 #include "nt.h"
 #include "tab.h" /* char2code, code2char */
 #include <stdlib.h> /* realloc */
