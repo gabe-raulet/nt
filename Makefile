@@ -8,7 +8,7 @@ CFLAGS=-O2 -Wall -Werror
 
 all: main
 
-main: main.c nt.c nt.h tab.h char2code.tab
+main: main.c nt.c nt.h tab.h
 	$(CC) $(CFLAGS) -o $@ main.c nt.c
 
 clean:
